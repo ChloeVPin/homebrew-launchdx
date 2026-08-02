@@ -17,6 +17,21 @@ launchdx diagnose /Applications/MyApp.app --json
 launchdx evidence /Applications/MyApp.app
 ```
 
+## Completions and man page
+
+The formula installs bash, zsh, and fish completions plus the man page automatically.
+
+1. bash completion at `$(brew --prefix)/etc/bash_completion.d/launchdx.bash`
+2. zsh completion at `$(brew --prefix)/share/zsh/site-functions/_launchdx`
+3. fish completion at `$(brew --prefix)/share/fish/vendor_completions.d/launchdx.fish`
+4. man page at `$(brew --prefix)/share/man/man1/launchdx.1`
+
+Read the man page with:
+
+```bash
+man launchdx
+```
+
 ## Upgrade
 
 ```bash
