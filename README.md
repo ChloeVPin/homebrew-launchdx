@@ -1,6 +1,8 @@
-# homebrew-launchdx
+<div align="center">
+  <h1>homebrew-launchdx</h1>
 
-Homebrew tap for [launchdx](https://github.com/ChloeVPin/launchdx), a read only macOS application launch diagnosis CLI for Apple Silicon.
+  <p>Homebrew tap for launchdx, a read-only macOS launch diagnosis CLI.</p>
+</div>
 
 ## Install
 
