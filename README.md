@@ -2,6 +2,10 @@
   <h1>homebrew-launchdx</h1>
 
   <p>Homebrew tap for launchdx, a read-only macOS launch diagnosis CLI.</p>
+
+  <p>
+    <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-lightgrey" alt="MIT license" /></a>
+  </p>
 </div>
 
 ## Install
