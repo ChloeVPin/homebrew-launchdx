@@ -1,4 +1,6 @@
 <div align="center">
+  <img src="assets/readme-icon.svg" alt="homebrew-launchdx" width="120" />
+
   <h1>homebrew-launchdx</h1>
 
   <p>Homebrew tap for launchdx, a read-only macOS launch diagnosis CLI.</p>
