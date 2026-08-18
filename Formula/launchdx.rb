@@ -1,8 +1,8 @@
 class Launchdx < Formula
   desc "Find out exactly why macOS blocked your app"
   homepage "https://github.com/ChloeVPin/launchdx"
-  url "https://github.com/ChloeVPin/launchdx/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "b603aa6288846394c8ac24dedd3f5e6d45591608385dab6e1db1f8ea04857941"
+  url "https://github.com/ChloeVPin/launchdx/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "ee81952c495e2aede6f5ea896c96dd4c9f546dda6f1adcb34b4435f21518759e"
   license "MIT"
 
   depends_on macos: :ventura
