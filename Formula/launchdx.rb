@@ -1,8 +1,8 @@
 class Launchdx < Formula
   desc "Find out exactly why macOS blocked your app"
   homepage "https://github.com/ChloeVPin/launchdx"
-  url "https://github.com/ChloeVPin/launchdx/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "ee81952c495e2aede6f5ea896c96dd4c9f546dda6f1adcb34b4435f21518759e"
+  url "https://github.com/ChloeVPin/launchdx/archive/refs/tags/v0.2.2.tar.gz"
+  sha256 "458df69bd6496d378801a38db67b70669a4d2e6e2e343e178c3a52d7d8a2d9da"
   license "MIT"
 
   depends_on macos: :ventura
@@ -18,6 +18,7 @@ class Launchdx < Formula
   end
 
   test do
+    assert_match "launchdx 0.2.2", shell_output("#{bin}/launchdx --version")
     assert_match "Usage:", shell_output("#{bin}/launchdx --help")
   end
 end

@@ -21,8 +21,10 @@ brew install launchdx
 
 ```bash
 launchdx diagnose /Applications/MyApp.app
-launchdx diagnose /Applications/MyApp.app --json
+launchdx diagnose ~/Downloads/MyApp.dmg
+launchdx diagnose ~/Downloads/MyApp.pkg --json
 launchdx evidence /Applications/MyApp.app
+launchdx --version
 ```
 
 ## Completions and man page
